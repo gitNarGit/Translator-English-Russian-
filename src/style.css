@@ -1,4 +1,56 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+thead{
+    background-color: #dddddd;
+}
+
+.inpWriter{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+
+.inpWriter:focus{
+    border: 3px solid #555;
+}
+
+.clickBtn{
+    background-color: #008B8B;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.clickBtn:hover{
+    background-color: #A9A9A9;
+}
+
