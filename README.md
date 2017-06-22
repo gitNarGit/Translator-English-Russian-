@@ -1,5 +1,4 @@
-<html>
 
-#English-Russian Translator :exclamation:
 
-</html>
+English-Russian Translator :exclamation:
+
